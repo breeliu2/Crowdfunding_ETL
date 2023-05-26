@@ -1,9 +1,4 @@
 
-DROP TABLE campaign CASCADE;
-DROP TABLE category CASCADE;
-DROP TABLE subcategory CASCADE;
-DROP TABLE contacts CASCADE;
-
 CREATE TABLE campaign (
     cf_id VARCHAR (10) NOT NULL,
     contact_id VARCHAR (10) NOT NULL,
